@@ -13,3 +13,15 @@ Goの [syscall/js](https://pkg.go.dev/syscall/js) と wasm_exec.js
 欠点といえば
 `cargo install wasm-pack`
 がWindowsだと死ぬことかな。
+(Is `gcc.exe` installed?って言われるので、
+あとでもう一度試す)
+
+このプロジェクトの生成手順(抜書)
+```bash
+cargo install wasm-pack
+cargo new --lib sieve
+# Cargo.toml編集
+# src/lib.rs編集
+# index.html編集
+wasm-pack build --target web
+```
