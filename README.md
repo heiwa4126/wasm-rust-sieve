@@ -25,3 +25,7 @@ cargo new --lib sieve
 # index.html編集
 wasm-pack build --target web
 ```
+
+Windowsでは
+[wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)
+にビルド済みのものがあった。 `rustup`があればOK (chocoとかで入れたrustではだめ)。
