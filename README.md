@@ -19,10 +19,9 @@ Goの [syscall/js](https://pkg.go.dev/syscall/js) と wasm_exec.js
 このプロジェクトの生成手順(抜書)
 ```bash
 cargo install wasm-pack
-mkdir sieve ; cd sieve
-cargo init .
+cargo new --lib sieve
 # Cargo.toml編集
-# src/main.rsをsrc/lib.rsにして編集
+# src/lib.rs編集
 # index.html編集
 wasm-pack build --target web
 ```
