@@ -1,6 +1,6 @@
 [TypeScriptやGoやRustでWebAssemblyウォークスルー - SMARTCAMP Engineer Blog](https://tech.smartcamp.co.jp/entry/wasm-walkthrough)
+にあった Rust で WebAssembly のサンプル。 
 
-にあった Rust で WebAssembly のサンプル。
 これは簡単ですごい。大したもんだ。
 
 Goの [syscall/js](https://pkg.go.dev/syscall/js) と wasm_exec.js
