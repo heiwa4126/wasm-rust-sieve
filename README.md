@@ -9,3 +9,7 @@ Goの [syscall/js](https://pkg.go.dev/syscall/js) と wasm_exec.js
 みたいな
 汎用でないコードを使うのが
 かっこいい。
+
+欠点といえば
+`cargo install wasm-pack`
+がWindowsだと死ぬことかな。
